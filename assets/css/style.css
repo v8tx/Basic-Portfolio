@@ -14,7 +14,8 @@ header {
 	width: 100%;	
 	margin: 0;
 	padding: 0;
-	display: inline-block;;
+	display: block;
+	height: auto;
 }
 .logo {
 	font-family: 'Bungee Inline', cursive;
@@ -27,7 +28,22 @@ header {
 }
 .nav {
 	width: 60%;
-	float: left;
+	float: right;
+	margin: 20px 0 0 0;
+}
+.nav ul {
+	color: #fff;
+}
+.nav ul li {
+	padding: 10px;
+}
+.nav ul li a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+.nav ul li a:hover {
+	text-decoration: underline;
 }
 .bold {
 	font-weight: bold;
@@ -37,9 +53,6 @@ p {
 }
 .grey {color: #777;}
 .white {color: #fff;}
-header, #nav, #footer {
-	padding: 20px 0;
-}
 .row {
 	width: 100%;
 	display: inline-block;
