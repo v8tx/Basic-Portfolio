@@ -29,7 +29,10 @@ footer {
 	min-height: auto;
 	display: inline-block;
 	background: url("../images/footer_lodyas.png") 0 0 repeat #777;
-	border-top: 6px solid #FF3B71;
+	border-top: 4px solid #FF3B71;
+	 position: fixed;
+    bottom: 0;
+    right: 0;
 }
 .logo {
 	font-family: 'Bungee Inline', cursive;
