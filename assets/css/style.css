@@ -150,7 +150,12 @@ ul {
 li {
 	padding: 0;
 	display: inline;
-	width: 95%;
-	margin: 0 0 10px 0;
+	width: 100%;
+	margin: 0 5px 0 0;
+
+}
+.sm-icon {
+	width: 70px;
+	height: auto;
 
 }
